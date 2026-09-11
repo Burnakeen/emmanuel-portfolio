@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emmanuel Lucky — Frontend Developer</title>
+<meta name="description" content="Portfolio of Emmanuel Lucky, a frontend developer who builds clean, fast, working websites.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="#top" class="wordmark">Emmanuel Lucky</a>
+    <nav class="site-nav" aria-label="Section navigation">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero" id="hero">
+    <div class="wrap hero-row">
+      <div class="hero-copy">
+        <p class="eyebrow-free-tag">Frontend developer</p>
+        <h1>I build interfaces that hold up<span class="cursor" aria-hidden="true"></span></h1>
+        <p class="hero-lede">I'm Emmanuel — I turn designs and ideas into websites that load fast, read clearly, and work on whatever screen they land on. This site is one of them.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">See what I've built</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="assets/avatar.svg" alt="Illustrated geometric monogram of the letters E and L, built from overlapping angular shapes in amber and cream" width="320" height="320">
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="wrap">
+      <h2>About</h2>
+      <div class="section-body">
+        <p>I started out editing HTML on pages I had no business touching, just to see what would break. That curiosity turned into a habit of building things properly: semantic markup, CSS that doesn't fight itself, and layouts that don't collapse the moment someone opens them on a phone.</p>
+        <p>I care about the parts of frontend work that are easy to skip — alt text that actually describes the image, navigation that works with a keyboard, spacing that's consistent instead of guessed. Right now I'm focused on getting better at exactly that: shipping small, complete projects rather than half-finished big ones.</p>
+        <p>This portfolio is itself one of those projects. No framework, no template — plain HTML and a stylesheet I wrote section by section.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="work">
+    <div class="wrap">
+      <h2>Work</h2>
+      <div class="work-grid">
+        <article class="work-card">
+          <h3>This portfolio</h3>
+          <p>A hand-built, responsive personal site: semantic HTML, a custom stylesheet, working in-page navigation, and layout that adapts down to a phone screen. No CSS framework.</p>
+          <p class="work-meta">HTML · CSS</p>
+        </article>
+        <article class="work-card">
+          <h3>Layout practice</h3>
+          <p>A set of smaller exercises rebuilding common UI patterns — card grids, sticky navigation, responsive image galleries — to get comfortable with CSS Grid and Flexbox without leaning on a library.</p>
+          <p class="work-meta">HTML · CSS</p>
+        </article>
+        <article class="work-card">
+          <h3>Next up</h3>
+          <p>Adding interactivity with plain JavaScript — form validation, a small to-do app, and a project that talks to a public API. Documented and pushed to GitHub as each one is finished.</p>
+          <p class="work-meta">JavaScript</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <div class="wrap">
+      <h2>Skills</h2>
+      <div class="skills-row">
+        <div class="skill-group">
+          <h3>Markup &amp; style</h3>
+          <p>Semantic HTML5, CSS (Flexbox, Grid, custom properties), responsive layout, basic accessibility practice.</p>
+        </div>
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <p>Git and GitHub for version control, browser dev tools for debugging layout and performance issues.</p>
+        </div>
+        <div class="skill-group">
+          <h3>Learning now</h3>
+          <p>JavaScript fundamentals, and how to read documentation properly instead of guessing — starting with <a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener">MDN Web Docs</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contact">
+    <div class="wrap contact-row">
+      <div>
+        <h2>Contact</h2>
+        <p>I'm open to small frontend projects and junior roles. The fastest way to reach me is email; the fastest way to check my work is GitHub.</p>
+      </div>
+      <ul class="contact-list">
+        <li><a href="mailto:emmanuel.lucky.dev@example.com">emmanuel.lucky.dev@example.com</a></li>
+        <li><a href="https://github.com/" target="_blank" rel="noopener">github.com/emmanuel-lucky</a></li>
+        <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">linkedin.com/in/emmanuel-lucky</a></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Built by Emmanuel Lucky. Plain HTML and CSS, no framework.</p>
+  </div>
+</footer>
+
+</body>
+</html>
