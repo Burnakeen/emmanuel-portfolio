@@ -1,0 +1,7 @@
+<svg viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="avTitle">
+  <title id="avTitle">Geometric monogram of the letter E, for Emmanuel</title>
+  <rect width="320" height="320" rx="8" fill="#1B2130"/>
+  <polygon points="90,70 90,250 230,250 230,213 130,213 130,178 210,178 210,143 130,143 130,107 228,107 228,70" fill="#F6F6F3"/>
+  <circle cx="255" cy="60" r="10" fill="#C97A2E"/>
+  <rect x="70" y="272" width="180" height="6" fill="#C97A2E"/>
+</svg>
